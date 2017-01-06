@@ -59,11 +59,11 @@
 							$tip = ($subtotal) * ($tip_perc/100);
 							$total = $tip + $subtotal;
 							echo "Sub Total: $";
-							echo money_format('%i', $subtotal) . "<br />";
+							echo  number_format($subtotal, 2). "<br />";
 							echo "Tip: $";
-							echo money_format('%i', $tip) . "<br />";
+							echo number_format($tip, 2) . "<br />";
 							echo "Total: $" ;
-							echo money_format('%i', $total) . "<br />" ;
+							echo number_format($total, 2) . "<br />" ;
 						}
 					}
 
