@@ -15,6 +15,8 @@ The following **required** functionality is complete:
 * [x] Page indicates any form errors which need to be fixed.
 
 The following **optional** features are implemented:
+* [ ] Add support for custom tip percentage
+* [ ] Add support for splitting the tip and total
 
 
 The following **additional** features are implemented:
